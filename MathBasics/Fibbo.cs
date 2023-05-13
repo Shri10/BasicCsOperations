@@ -24,11 +24,11 @@ namespace MathBasics
             }
             else
             {
-                Console.WriteLine(n1 + " " +n2);
+                Console.WriteLine(n1 + "\n" +n2);
                 for (int i = 3; i <= n; i++)
                 {
                     sum = n1 + n2;
-                    Console.WriteLine(" "+sum);
+                    Console.WriteLine(sum);
                     n1 = n2;
                     n2 = sum;
                 }

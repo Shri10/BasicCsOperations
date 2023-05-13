@@ -27,6 +27,7 @@ namespace MathBasics
             foreach (string w in words)
             {
                 string r = ReverseWord(w);
+                rev = rev + r + " ";
             }
             Console.WriteLine(rev);
         }
