@@ -28,8 +28,15 @@ namespace MathBasics
 
         public void DivNumbs(int x, int y)
         {
-            int div = x / y;
-            Console.WriteLine("Division\tof given numbers is:\t" + div);
+            if (y != 0)
+            {
+                int div = x / y;
+                Console.WriteLine("Division\tof given numbers is:\t" + div);
+            }
+            else
+            { 
+                Console.WriteLine("Make sure the 2nd number is NOT Zero");
+            }
         }
 
 
